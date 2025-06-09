@@ -1,0 +1,25 @@
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+/*Task*/
+
+#outer-box{
+  background-color: rgb(165, 42, 124);
+  padding: 10px;
+}
+.inner-box{
+  background-color: red;
+}
+.white-text{
+   color: white;
+}

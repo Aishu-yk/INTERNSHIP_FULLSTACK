@@ -1,0 +1,22 @@
+/* Write your code here: */
+h1,h2{
+    color: blueviolet;
+}
+.done{
+    color: firebrick;
+}
+.list{
+    color: blue;
+}
+ul>li.done{
+    color: green;
+}
+ul p.done{
+    color: black;
+    font-size: xx-small;/* or can give font-size:0.5rem; */
+}
+
+/*for the child selector can use as
+ ul>li.p    (or) 
+ ul li.p
+  */
