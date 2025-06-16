@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .typing {
+      width: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid black;
+      font-size: 24px;
+      animation: typing 4s steps(30) forwards;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to   { width: 18ch; } /* 'ch' = character width unit */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="typing">Hello, I'm learning CSS animation!</div>
+
+</body>
+</html>
