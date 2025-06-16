@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.feature-icon{
+    padding: 10px;
+    border-radius: 20%;
+    width: 65px;
+    height: 65px;
+    height: 30px;
+}
+#carouselExampleIndicators{
+    width: 85%;
+    height: 150%;
+    margin-left: 8%;
+    margin-right: 6%;
+}
