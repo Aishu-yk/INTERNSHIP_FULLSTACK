@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="demo"></p>
+    <p class="item">Apple</p>
+    <p class="item">Banana</p>
+    <p id="a">HEY</p>
+    <div class="box">HI</div>
+
+    <div id="container"></div>
+
+    <script>
+        document.getElementById("demo").innerHTML="WELCOME";
+        let items=document.getElementsByClassName("item");
+        items[1].innerHTML="Mango";
+
+        let allparas= document.getElementsByTagName("p");
+        allparas[1].innerHTML="Updated Text";
+
+        document.querySelector(".box").style.color="Blue";
+        document.querySelector("#a").style.color="Red";
+
+        let newpara= document.createElement("h1");
+        newpara.innerHTML="I'm new here, inside container";
+        document.getElementById("container").appendChild(newpara);
+
+        let newpara= document.createElement("h1");
+        newpara.innerHTML="I'm new here, inside container";
+        let parent=document.getElementById("Container");
+        parent.removeChild(newpara)
+
+
+    </script>
+</body>
+
+</html>
