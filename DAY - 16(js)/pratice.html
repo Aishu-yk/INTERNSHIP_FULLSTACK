@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Click Me!</button>
+    <script>
+        button.addEventListener("click",()=>{
+            alert("Clicked");
+        },{once:true});
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Press any key</h2>
+  <pre id="info"></pre>
+
+  <script>
+    document.addEventListener("keydown", function(e) {
+      document.getElementById("info").textContent =
+        `Key: ${e.key}
+Code: ${e.code}
+AltKey: ${e.altKey}
+CtrlKey: ${e.ctrlKey}
+ShiftKey: ${e.shiftKey}
+MetaKey: ${e.metaKey}
+Repeat: ${e.repeat}
+Location: ${e.location}
+IsComposing: ${e.isComposing}`;
+    });
+  </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    document.addEventListener("keydown", (e) => {
+  console.log("Code:", e.code);
+});
+  </script>
+</body>
+</html>
+
